@@ -4,17 +4,21 @@
 
 This project aims to classify the input image as either a dog or a cat image. The image input which you give to the system will be analyzed and the predicted result will be given as output. Machine learning algorithm [Convolutional Neural Networks] is used to classify the image. 
 The model thus implemented can be extended to a mobile device or any website as per the developer’s need.
+             Section I :Importing the libraries
+import tensorflow as tf
+import os
+from keras.preprocessing.image import ImageDataGenerator
 KNN-NB-Projects
-                                Section I : Accessing the Data
+                                Section II : Accessing the Data
       Accessing the datset  from my Google derive as  CSV file.
 How many variables does the dataset contain?
 What is the data about?
 What are we trying to predict here?
-                                Section II : Exploratory Data Analysis
+                                Section III : Exploratory Data Analysis
 Perform some descriptive statistics and make a note of I findings
 Plot appropriate graphs to understand the relation between the variables.
 Point out any observations and comment on the strength of the relationships if any.
-                               Section III : Prepare data for Training!
+                               Section IV : Prepare data for Training!
 Make a new column symptom_class with the abnormal rows as 1 and the normal rows as 0, drop the class column
 Split the entire dataset into independent features and symptoms as the response variable
 Normalize the variables.
